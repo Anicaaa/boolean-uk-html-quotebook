@@ -1,3 +1,41 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+
+nav {
+    background-color: rgb(126, 23, 23);
+    padding: 25px;
+}
+
+h1 {
+    font-size: 35px;
+    color: rgb(230, 219, 219);
+}
+
+h2 {
+    padding-top: 40px;
+}
+
+.quotes > * {
+    padding: 4px;
+    margin: 4px;
+    border: 2px solid green;
+}
+
+.author-quotes, .quotes {
+    display: grid;
+    grid-template-rows: auto;
+    text-align: center;
+}
+
+.quotes {
+    padding-top: 20px;
+}
+
